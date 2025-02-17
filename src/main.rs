@@ -26,6 +26,7 @@ impl Player {
 struct State {
     mode: GameMode,
 }
+
 impl State {
     fn new() -> Self {
         Self {
